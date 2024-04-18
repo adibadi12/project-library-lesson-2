@@ -10,22 +10,26 @@ body {
 /* Header Styles */
 header {
   background-color: #2f27ce;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   padding: 20px;
+  text-align: center;
 }
 
 header h1 {
   margin: 0;
   font-size: 32px;
+  color:#ffffff
 }
 
 /* Navigation Styles */
 nav {
+  background-color: #dedcff;
   padding: 10px 0;
 }
 
 nav a {
-  color: #2f27ce;
+  
+  color: #000000;
   text-decoration: none;
   margin-right: 20px;
   transition: color 0.3s ease;
@@ -57,5 +61,9 @@ footer {
   color: #fbfbfe; 
   padding: 20px;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
